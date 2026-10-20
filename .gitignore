@@ -1,0 +1,44 @@
+# API keys and environment
+.env
+.env.*
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Test files
+tests/
+
+# Uploaded documents and data
+data/uploads/
+data/raw/
+data/processed/
+
+# Local databases and vector stores
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+chroma/
+vector_store/
+
+# Model files
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Logs and caches
+*.log
+.cache/
+.pytest_cache/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
